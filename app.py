@@ -1,5 +1,7 @@
 import streamlit as st
 import torch
+import os
+os.environ["HF_TOKEN"] = st.secrets.get("HF_TOKEN", "")
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
 
