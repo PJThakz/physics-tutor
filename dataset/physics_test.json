@@ -1,0 +1,122 @@
+[
+  {
+    "instruction": "A 10 kg object has two forces acting on it in the same direction: 15 N and 25 N. Find its acceleration.",
+    "response": "Step 1. Identify known values.\nm = 10 kg\nF1 = 15 N\nF2 = 25 N\n(both act in the same direction, so they add)\n\nStep 2. Choose the correct equation.\nEquation: F_net = F1 + F2, then a = F_net / m\nF_net = F1 + F2\na = F_net/m\n\nStep 3. Substitute values.\nF_net = 15 + 25 = 40 N\na = 40/10\n\nStep 4. Solve.\na = 4 m/s²\n\nFinal Answer: 4 m/s²"
+  },
+  {
+    "instruction": "An object is dropped from rest and falls for 4 s. Find:\n(a) its velocity after 4 s\n(b) the distance fallen. (g = 9.8 m/s²)",
+    "response": "Step 1. Identify known values.\nu = 0 m/s\ng = 9.8 m/s²\nt = 4 s\n\nStep 2. Choose the correct equation.\nEquation: v = u + gt (for velocity), then s = ut + ½gt² (for distance)\n(a) v = u + gt\n(b) s = ut + ½gt²\n\nStep 3. Substitute values.\nv = 0 + (9.8)(4)\ns = 0 + ½(9.8)(4²)\n\nStep 4. Solve.\nv = 39.2 m/s\ns = ½(9.8)(16) = 78.4 m\n\nFinal Answer: (a) 39.2 m/s\n(b) 78.4 m"
+  },
+  {
+    "instruction": "Find the normal force on a 6 kg block resting on a horizontal table. (g = 10 m/s²)",
+    "response": "Step 1. Identify known values.\nm = 6 kg\ng = 10 m/s²\n(block is at rest on a horizontal surface, so it is in vertical equilibrium)\n\nStep 2. Choose the correct equation.\nEquation: N = mg (normal force balances weight when there is no other vertical force)\nN = mg\n\nStep 3. Substitute values.\nN = (6)(10)\n\nStep 4. Solve.\nN = 60 N\n\nFinal Answer: 60 N"
+  },
+  {
+    "instruction": "An object weighs 48 N on the Moon, where g = 1.6 m/s². Find its mass.",
+    "response": "Given:\nW = 48 N\ng_moon = 1.6 m/s²\n\nStep 2. Choose the correct equation.\nEquation: W = mg, rearranged for m\nm = W/g\n\nStep 3. Substitute values.\nm = 48/1.6\n\nStep 4. Solve.\nm = 30 kg\n\nFinal Answer: 30 kg\n\nUnits check: N ÷ (m/s²) = kg ✓"
+  },
+  {
+    "instruction": "A car travels at a constant speed of 15 m/s along a straight road. Find the time it takes to cover 180 m.",
+    "response": "Known values:\nv = 15 m/s\ns = 180 m\n\nStep 2. Choose the correct equation.\nEquation: t = s/v (rearranged from v = s/t)\nt = s/v\n\nStep 3. Substitute values.\nt = 180/15\n\nStep 4. Solve.\nt = 12 s\n\nFinal Answer: 12 s\n\nUnits check: m ÷ (m/s) = s ✓"
+  },
+  {
+    "instruction": "A runner travels 100 m north, then turns and runs 75 m south. Find:\n(a) the total distance travelled\n(b) the displacement from the starting point.",
+    "response": "Given:\nLeg 1: 100 m north\nLeg 2: 75 m south\n\nStep 2. Choose the correct equation.\nEquation: distance = sum of all path lengths (scalar)\ndisplacement = final position - starting position (vector, with direction)\ndistance = d₁ + d₂\ndisplacement = d₁ - d₂  (south opposes north)\n\nStep 3. Substitute values.\ndistance = 100 + 75\ndisplacement = 100 - 75\n\nStep 4. Solve.\ndistance = 175 m\ndisplacement = 25 m north\n\nFinal Answer: (a) 175 m\n(b) 25 m north"
+  },
+  {
+    "instruction": "A car accelerates uniformly from rest to 25 m/s with an acceleration of 5 m/s². Find the time taken.",
+    "response": "The information given is:\nu = 0 m/s\nv = 25 m/s\na = 5 m/s²\n\nStep 2. Choose the correct equation.\nEquation: v = u + at, rearranged for t\nt = (v - u)/a\n\nStep 3. Substitute values.\nt = (25 - 0)/5\n\nStep 4. Solve.\nt = 5 s\n\nFinal Answer: 5 s"
+  },
+  {
+    "instruction": "A 12 kg crate rests on a horizontal floor. Find the normal force acting on it. (g = 10 m/s²)",
+    "response": "Step 1. List the known quantities.\nm = 12 kg\ng = 10 m/s²\n(crate is at rest on a horizontal surface)\n\nStep 2. Choose the correct equation.\nEquation: N = mg\nN = mg\n\nStep 3. Substitute values.\nN = (12)(10)\n\nStep 4. Solve.\nN = 120 N\n\nFinal Answer: 120 N"
+  },
+  {
+    "instruction": "A cyclist moving at 5 m/s accelerates uniformly at 1.5 m/s² for 10 s. Find the final velocity.",
+    "response": "Step 1. Identify known values.\nu = 5 m/s\na = 1.5 m/s²\nt = 10 s\n\nStep 2. Choose the correct equation.\nEquation: v = u + at\nv = u + at\n\nStep 3. Substitute values.\nv = 5 + (1.5)(10)\n\nStep 4. Solve.\nv = 5 + 15 = 20 m/s\n\nFinal Answer: 20 m/s"
+  },
+  {
+    "instruction": "Find the weight of a 3 kg object on a planet where the gravitational field strength is 4 m/s².",
+    "response": "Known values:\nm = 3 kg\ng = 4 m/s²\n\nStep 2. Choose the correct equation.\nEquation: W = mg\nW = mg\n\nStep 3. Substitute values.\nW = (3)(4)\n\nStep 4. Solve.\nW = 12 N\n\nFinal Answer: 12 N"
+  },
+  {
+    "instruction": "A skater speeds up from 2 m/s to 10 m/s over a distance of 24 m. Find the acceleration.",
+    "response": "Given:\nu = 2 m/s\nv = 10 m/s\ns = 24 m\n(no time is given, so the equation involving time cannot be used here)\n\nStep 2. Choose the correct equation.\nEquation: v² = u² + 2as, rearranged to solve for a\na = (v² - u²) / (2s)\n\nStep 3. Substitute values.\na = (10² - 2²) / (2 × 24)\na = (100 - 4) / 48\n\nStep 4. Solve.\na = 96/48 = 2 m/s²\n\nFinal Answer: 2 m/s²"
+  },
+  {
+    "instruction": "A ball is thrown vertically upward at 25 m/s. Find the total time it takes to return to the thrower's hand. (g = 10 m/s², air resistance ignored)",
+    "response": "Step 1. Identify known values.\nu = 25 m/s (upward)\nv = 0 m/s (at max height)\ng = 10 m/s²\n\nStep 2. Choose the correct equation.\nEquation: Step A: time to reach max height: v = u - gt\nStep B: total flight time = 2 × (time up), since the upward and downward times are equal\n0 = u - gt_up\nt_total = 2 × t_up\n\nStep 3. Substitute values.\n0 = 25 - 10(t_up) → t_up = 2.5 s\nt_total = 2 × 2.5\n\nStep 4. Solve.\nt_total = 5 s\n\nFinal Answer: 5 s"
+  },
+  {
+    "instruction": "An object is held stationary on a frictionless surface by two horizontal forces: a 30 N force pulling right, and an unknown force F pulling left. Find F.",
+    "response": "First, list the known quantities.\nF1 = 30 N (right)\nThe object is stationary, so it is in equilibrium — the net force must be zero\n\nStep 2. Choose the correct equation.\nEquation: For equilibrium: F1 + F = 0, so F = -F1\nF = -F1\n\nStep 3. Substitute values.\nF = -30\n\nStep 4. Solve.\nF = -30 N (i.e. 30 N to the left)\n\nFinal Answer: 30 N to the left"
+  },
+  {
+    "instruction": "A ball is launched at 20 m/s at an angle of 45° to the horizontal. Find the horizontal range. (g = 10 m/s²)",
+    "response": "Let’s identify the information provided.\nv₀ = 20 m/s\nθ = 45°\ng = 10 m/s²\n\nStep 2. Choose the correct equation.\nEquation: R = v₀² sin(2θ)/g (range formula for a projectile launched and landing at the same height)\nR = v₀² sin(2θ) / g\n\nStep 3. Substitute values.\nR = (20² × sin(90°)) / 10\nR = (400 × 1) / 10\n\nStep 4. Solve.\nR = 40 m\n\nFinal Answer: 40 m\n\nAt 45°, sin(2θ) = sin(90°) = 1, its maximum possible value — this is why 45° gives the maximum range for a given launch speed."
+  },
+  {
+    "instruction": "A spring with spring constant 250 N/m hangs vertically with a 2 kg mass attached to its lower end. Find the extension of the spring at equilibrium. (g = 10 m/s²)",
+    "response": "Let’s identify the information provided.\nk = 250 N/m\nm = 2 kg\ng = 10 m/s²\n(at equilibrium, spring force = weight of mass)\n\nStep 2. Choose the correct equation.\nEquation: At equilibrium: kx = mg, so x = mg/k\nx = mg/k\n\nStep 3. Substitute values.\nx = (2 × 10)/250\nx = 20/250\n\nStep 4. Solve.\nx = 0.08 m = 8 cm\n\nFinal Answer: 0.08 m (8 cm)"
+  },
+  {
+    "instruction": "A car travelling at 30 m/s brakes suddenly and leaves skid marks 45 m long before stopping. Find the deceleration.",
+    "response": "Given:\nu = 30 m/s\nv = 0 m/s (stops)\ns = 45 m\n\nStep 2. Choose the correct equation.\nEquation: v² = u² + 2as, rearranged to find a (time is not given)\na = (v² - u²) / (2s)\n\nStep 3. Substitute values.\na = (0² - 30²) / (2 × 45)\na = -900 / 90\n\nStep 4. Solve.\na = -10 m/s² (deceleration of 10 m/s²)\n\nFinal Answer: -10 m/s² (deceleration of 10 m/s²)"
+  },
+  {
+    "instruction": "A ball reaches a maximum height of 20 m after being thrown vertically upward. Find its initial velocity. (g = 10 m/s²)",
+    "response": "Known quantities:\nh = 20 m (max height above launch point)\nv = 0 m/s (at max height, momentarily stationary)\ng = 10 m/s²\nu = unknown\n\nStep 2. Choose the correct equation.\nEquation: v² = u² - 2gh, rearranged to find u (time is not given or needed)\nu = √(2gh)\n\nStep 3. Substitute values.\nu = √(2 × 10 × 20)\nu = √400\n\nStep 4. Solve.\nu = 20 m/s\n\nFinal Answer: 20 m/s"
+  },
+  {
+    "instruction": "A 40 N sign is suspended from the ceiling by a single rope that makes an angle of 30° with the ceiling. Find the tension in the rope.",
+    "response": "Given:\nW = 40 N (weight of sign, acting downward)\nθ = 30° (angle of rope to the ceiling, so angle to the vertical = 60°)\n(for equilibrium, the vertical component of tension must equal the weight)\n\nStep 2. Choose the correct equation.\nEquation: Vertical equilibrium: T sin(30°) = W\n(since 30° is measured from the ceiling, the vertical component is T sin 30°)\nT = W/sin(30°)\n\nStep 3. Substitute values.\nT = 40/sin(30°)\nT = 40/0.5\n\nStep 4. Solve.\nT = 80 N\n\nFinal Answer: 80 N"
+  },
+  {
+    "instruction": "A 60 kg person stands on a scale inside an elevator that is in free fall (cable snapped). What does the scale read? (g = 10 m/s²)",
+    "response": "Given:\nm = 60 kg\ng = 10 m/s²\nElevator is in free fall: a = g = 10 m/s² downward\n\nStep 2. Choose the correct equation.\nEquation: Apply Newton’s Second Law vertically:\nmg - N = ma (both the person and the scale accelerate downward at g)\nSolve for N (scale reading)\nN = m(g - a)\n\nStep 3. Substitute values.\nN = 60(10 - 10)\n\nStep 4. Solve.\nN = 0 N\n\nFinal Answer: 0 N (the scale reads zero)\n\nIn free fall, both the person and the scale accelerate downward at the same rate. There is no contact force between them, so the scale reads zero. This is what ‘weightlessness’ feels like — not the absence of gravity, but the absence of the normal force."
+  },
+  {
+    "instruction": "An object speeds up from 5 m/s to 15 m/s over a distance of 40 m. Find its acceleration.",
+    "response": "Known values:\nu = 5 m/s\nv = 15 m/s\ns = 40 m\n(time is not given — use the equation that doesn’t require t)\n\nStep 2. Choose the correct equation.\nEquation: v² = u² + 2as, rearranged for a\na = (v² - u²)/(2s)\n\nStep 3. Substitute values.\na = (15² - 5²)/(2 × 40)\na = (225 - 25)/80\n\nStep 4. Solve.\na = 200/80 = 2.5 m/s²\n\nFinal Answer: 2.5 m/s²"
+  },
+  {
+    "instruction": "In an Atwood machine, one mass is 5 kg. The system accelerates at 2.5 m/s². Find the unknown mass m₂. (g = 10 m/s²)",
+    "response": "Let’s note what’s given.\nm₁ = 5 kg\na = 2.5 m/s²\ng = 10 m/s²\nm₂ = unknown\n(this is a rearrangement problem — the Atwood formula must be solved for m₂ rather than a)\n\nStep 2. Choose the correct equation.\nEquation: Atwood formula: a = (m₁ - m₂)g/(m₁ + m₂)\nRearrange to solve for m₂:\na(m₁ + m₂) = (m₁ - m₂)g\nam₁ + am₂ = m₁g - m₂g\nm₂(a + g) = m₁(g - a)\nm₂ = m₁(g - a)/(g + a)\nm₂ = m₁(g - a)/(g + a)\n\nStep 3. Substitute values.\nm₂ = 5 × (10 - 2.5)/(10 + 2.5)\nm₂ = 5 × 7.5/12.5\n\nStep 4. Solve.\nm₂ = 5 × 0.6 = 3 kg\n\nFinal Answer: 3 kg"
+  },
+  {
+    "instruction": "Three forces act on an object: F₁ = 12 N to the right (0°), F₂ = 5 N upward (90°), F₃ = 0 N. Find the magnitude and direction of the resultant force using the component method.",
+    "response": "Given:\nF₁ = 12 N at 0° → components: (12, 0)\nF₂ = 5 N at 90° → components: (0, 5)\n(resolve each force into x and y components, then add separately)\n\nStep 2. Choose the correct equation.\nEquation: R_x = ΣF_x, R_y = ΣF_y\n|R| = √(R_x² + R_y²)\nθ = tan⁻¹(R_y/R_x)\nR_x = F₁_x + F₂_x\nR_y = F₁_y + F₂_y\n|R| = √(R_x² + R_y²)\n\nStep 3. Substitute values.\nR_x = 12 + 0 = 12 N\nR_y = 0 + 5 = 5 N\n|R| = √(12² + 5²) = √(144 + 25)\n\nStep 4. Solve.\n|R| = √169 = 13 N\nθ = tan⁻¹(5/12) ≈ 22.6° above the horizontal\n\nFinal Answer: 13 N at 22.6° above the horizontal"
+  },
+  {
+    "instruction": "A car starts from rest and accelerates uniformly to 20 m/s in 4 s. It then travels at this constant velocity for 10 s, before decelerating uniformly to rest in 5 s. Find the total distance travelled.",
+    "response": "Step 1. Identify known values.\nStage 1 (acceleration): u=0, v=20 m/s, t=4 s\nStage 2 (constant velocity): v=20 m/s, t=10 s\nStage 3 (deceleration): u=20 m/s, v=0, t=5 s\n\nStep 2. Choose the correct equation.\nEquation: multi-stage distance (sum of stages)\nStage 1 & 3: s = ut + ½at²\nStage 2: s = vt (constant velocity)\n\nStep 3. Substitute values.\nStage 1: a = 20/4 = 5 m/s², s1 = ½(5)(4²)\nStage 2: s2 = (20)(10)\nStage 3: a = (0-20)/5 = -4 m/s², s3 = (20)(5) + ½(-4)(5²)\n\nStep 4. Solve.\ns1 = ½(5)(16) = 40 m\ns2 = 200 m\ns3 = 100 + ½(-4)(25) = 100 - 50 = 50 m\nTotal = 40 + 200 + 50\n\nFinal Answer: Total distance = 290 m"
+  },
+  {
+    "instruction": "A 4 kg cart moving at 6 m/s collides with a stationary 2 kg cart and they stick together. Find their common velocity after the collision.",
+    "response": "Let’s note what’s given.\nm₁ = 4 kg, u₁ = 6 m/s\nm₂ = 2 kg, u₂ = 0 m/s\n(perfectly inelastic collision: they stick together, so final velocity is the same for both)\n\nStep 2. Choose the correct equation.\nEquation: Conservation of momentum: m₁u₁ + m₂u₂ = (m₁ + m₂)v\nSolve for v\nv = (m₁u₁ + m₂u₂)/(m₁ + m₂)\n\nStep 3. Substitute values.\nv = (4 × 6 + 2 × 0)/(4 + 2)\nv = 24/6\n\nStep 4. Solve.\nv = 4 m/s\n\nFinal Answer: 4 m/s"
+  },
+  {
+    "instruction": "A particle moves along a straight line with initial velocity 15 m/s and constant deceleration of 3 m/s². Find its displacement from the starting point after 7 seconds.",
+    "response": "Let’s identify the information provided.\nu = 15 m/s\na = -3 m/s² (deceleration)\nt_total = 7 s\n(important: the particle decelerates to rest and then reverses direction mid-way, so we cannot apply a single SUVAT over the full 7 s)\n\nStep 2. Choose the correct equation.\nEquation: multi-stage: stop time, forward distance, backward distance, then net displacement\nt_stop = u/|a|\ns₁ = u²/(2|a|)\ns₂ = ½|a|t_remaining²\ndisplacement = s₁ - s₂\n\nStep 3. Substitute values.\nt_stop = 15/3 = 5 s, so at t = 7 the particle has been reversing for 2 s\ns₁ = (15²)/(2 × 3) = 225/6\ns₂ = ½(3)(2²) = ½(3)(4)\n\nStep 4. Solve.\nt_stop = 5 s\ns₁ = 37.5 m (forward)\ns₂ = 6 m (backward)\nDisplacement = 37.5 - 6 = 31.5 m\n\nFinal Answer: 31.5 m from the starting point (in the original direction of travel)"
+  },
+  {
+    "instruction": "A motorbike starts from rest and accelerates at 3 m/s² for 8 s. The engine then cuts out and the bike decelerates at 1.5 m/s² until it stops. Find the total distance travelled.",
+    "response": "Let’s note what’s given.\nStage 1 (engine on): u = 0, a = 3 m/s², t₁ = 8 s\nStage 2 (engine off): a = -1.5 m/s² until v = 0\n(the velocity at the end of Stage 1 becomes the initial velocity for Stage 2)\n\nStep 2. Choose the correct equation.\nEquation: Stage 1: find final velocity and distance using v = u + at and s = ut + ½at²\nStage 2: find stopping distance using v² = u² + 2as  (time not given for stage 2)\nStage 1: v = u + at, s₁ = ut + ½at²\nStage 2: s₂ = -u²/(2a)\n\nStep 3. Substitute values.\nStage 1: v = 0 + (3)(8) = 24 m/s\ns₁ = 0 + ½(3)(8²) = ½(3)(64) = 96 m\nStage 2: s₂ = (24²)/(2 × 1.5) = 576/3\n\nStep 4. Solve.\nv at end of Stage 1 = 24 m/s\ns₁ = 96 m\ns₂ = 192 m\nTotal = 96 + 192 = 288 m\n\nFinal Answer: 288 m"
+  },
+  {
+    "instruction": "A person stands in an elevator that accelerates upward from rest at 2 m/s² for 3 s, then moves at the constant velocity reached for the next 5 s. Find the total distance travelled by the elevator.",
+    "response": "Step 1. Identify known values.\nStage 1 (acceleration): u=0, a=2 m/s², t=3 s\nStage 2 (constant velocity): t=5 s, v = velocity reached at end of Stage 1\n\nStep 2. Choose the correct equation.\nEquation: two-stage distance: v = u + at, then s = ut + ½at², then s = vt\nStage 1: v = u + at, s1 = ½at²\nStage 2: s2 = v × t\n\nStep 3. Substitute values.\nStage 1: v = 0 + (2)(3); s1 = 0 + ½(2)(3²)\nStage 2: s2 = v × 5\n\nStep 4. Solve.\nv = 6 m/s\ns1 = ½(2)(9) = 9 m\ns2 = 6 × 5 = 30 m\nTotal = 9 + 30\n\nFinal Answer: Total distance = 39 m"
+  },
+  {
+    "instruction": "A 4 kg block slides down an incline angled at 30° to the horizontal. The coefficient of kinetic friction between block and incline is 0.2. Find the block's acceleration down the slope. (g = 10 m/s²)",
+    "response": "Step 1. Identify known values.\nm = 4 kg\nθ = 30°\nμ = 0.2\ng = 10 m/s²\n\nStep 2. Choose the correct equation.\nEquation: Resolve forces along and perpendicular to the incline:\nNormal force: N = mg cos(θ)\nFriction force (opposing motion): F_friction = μN\nNet force along slope: F_net = mg sin(θ) - F_friction\nThen a = F_net / m\nN = (4)(10)cos(30°)\nF_friction = 0.2 × N\nF_gravity_component = (4)(10)sin(30°)\n\nStep 3. Substitute values.\nN = 40 × 0.866 = 34.64 N\nF_friction = 0.2 × 34.64 = 6.93 N\nF_gravity_component = 40 × 0.5 = 20 N\nF_net = 20 - 6.93 = 13.07 N\na = 13.07 / 4\n\nStep 4. Solve.\na ≈ 3.27 m/s²\n\nFinal Answer: ≈ 3.27 m/s² (down the slope)"
+  },
+  {
+    "instruction": "Two trains approach each other on parallel tracks. Train A is 120 m long and travels at 30 m/s. Train B is 80 m long and travels at 20 m/s. Find the time they take to completely pass each other.",
+    "response": "Let’s note what’s given.\nLength of Train A = 120 m\nLength of Train B = 80 m\nv_A = 30 m/s, v_B = 20 m/s (opposite directions)\n(the total distance that must be covered for them to fully pass is the sum of their lengths)\n\nStep 2. Choose the correct equation.\nEquation: Relative speed = v_A + v_B (opposite directions)\nTotal distance to cover = L_A + L_B\ntime = total distance / relative speed\nrelative speed = v_A + v_B\ntime = (L_A + L_B) / relative speed\n\nStep 3. Substitute values.\nrelative speed = 30 + 20 = 50 m/s\ntotal distance = 120 + 80 = 200 m\ntime = 200/50\n\nStep 4. Solve.\ntime = 4 s\n\nFinal Answer: 4 s"
+  },
+  {
+    "instruction": "A 5 kg block is pushed UP a 37° incline by a force of 50 N applied parallel to the incline. The coefficient of kinetic friction is 0.25. Find the acceleration of the block. (g = 10 m/s², use sin 37° = 0.6, cos 37° = 0.8)",
+    "response": "The information given is:\nm = 5 kg\nθ = 37°\nF_applied = 50 N (up the slope)\nμ_k = 0.25\ng = 10 m/s²\n(block moves UP, so friction acts DOWN the slope)\n\nStep 2. Choose the correct equation.\nEquation: Resolve forces along the slope (taking up as positive):\nN = mg cosθ\nF_friction = μ_k N (down, opposing upward motion)\nF_gravity_component = mg sinθ (down)\nF_net = F_applied - F_friction - F_gravity_component\nN = mg cosθ\nF_net = F_applied - μ_k N - mg sinθ\na = F_net/m\n\nStep 3. Substitute values.\nN = (5)(10)(0.8) = 40 N\nF_friction = 0.25 × 40 = 10 N\nF_gravity_component = (5)(10)(0.6) = 30 N\nF_net = 50 - 10 - 30 = 10 N\na = 10/5\n\nStep 4. Solve.\na = 2 m/s² (up the slope)\n\nFinal Answer: 2 m/s² up the slope"
+  }
+]
