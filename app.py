@@ -27,7 +27,7 @@ def load_model():
         )
         base_model = AutoModelForCausalLM.from_pretrained(
             "Qwen/Qwen2.5-1.5B-Instruct",
-            torch_dtype=torch.float32,
+            dtype=torch.float32,
             device_map="cpu",
         )
         model = PeftModel.from_pretrained(
