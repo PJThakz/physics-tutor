@@ -16,7 +16,7 @@ PROMPT_TEMPLATE = """Below is a physics problem. Solve it step by step.
 ### Solution:
 """
 
-API_URL = "API_URL = "https://api-inference.huggingface.co/models/pranjalthakz/physics-tutor-merged"
+API_URL = "API_URL = https://api-inference.huggingface.co/models/pranjalthakz/physics-tutor-merged"
 HF_TOKEN = st.secrets.get("HF_TOKEN", "")
 
 def solve(question):
